@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Test Extension Options</title>
+<style>
+  html{
+    background-color: rgba(20, 20, 20,0.1);
+  }
+  #daily{
+    background-color: #e67e22;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #daily:hover{
+    background-color: rgba(255, 159, 67,1.0);
+  }
+</style>
+</head>
+<body>
+  <h1>Your Daily Usage:</h1>
+  <br><br>
+  <canvas id="myChart" width="400" height="400"></canvas>
+  <p id="results"></p>
+  <script src="Chart.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
